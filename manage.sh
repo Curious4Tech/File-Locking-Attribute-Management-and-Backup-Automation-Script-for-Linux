@@ -110,8 +110,8 @@ case $MAIN_CHOICE in
 
         echo "How often would you like to back up?"
         echo "1) Every 10 minutes"
-        echo "2) Every 30 minutes"
-        echo "3) Every 40 minutes"
+        echo "2) Every 15 minutes"
+        echo "3) Every 30 minutes"
         echo "4) Hourly"
         echo "5) Daily"
         echo "6) Weekly"
@@ -122,10 +122,10 @@ case $MAIN_CHOICE in
                 SCHEDULE="*/10 * * * *"
                 ;;
             2)
-                SCHEDULE="*/30 * * * *"
+                SCHEDULE="*/15* * * *"
                 ;;
             3)
-                SCHEDULE="*/40 * * * *"
+                SCHEDULE="*/30 * * * *"
                 ;;
             4)
                 SCHEDULE="0 * * * *"
