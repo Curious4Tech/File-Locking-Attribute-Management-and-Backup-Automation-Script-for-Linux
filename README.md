@@ -29,8 +29,8 @@ This script provides a simple, user-friendly interface for managing files and di
 ### 1. **Clone the Repository**:
    Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/Curious4Tech/lock-attribute-backup-manager.git
-   cd lock-attribute-backup-manager
+   git clone https://github.com/Curious4Tech/lock-attribute-backup-manager-linux.git
+   cd lock-attribute-backup-manager-linux
    ```
 
 ### 2. **Make the Script Executable**:
