@@ -8,6 +8,18 @@ This script provides a simple, user-friendly interface for managing files and di
 
 ---
 
+## 🛠️ **Prerequisites**:
+Make sure your system has the following installed:
+
+- `bash` (the script is designed to work with Bash)
+- `chattr` (for file attributes)
+- `flock` (for locking files/directories)
+- `cron` (for scheduling backups)
+- `rsync` (for backing up files)
+
+---
+
+
 ## 🚀 **Features**:
 
 - **Set File Attributes**:
@@ -62,30 +74,6 @@ When you run the script, you will be prompted to enter a **file or directory pat
 3. **Schedule Backup**:
    - Set up an automated backup with `cron`.
    - Choose how frequently the backup should run (every 10 minutes, 30 minutes, hourly, daily, or weekly).
-
----
-
-## 📅 **Cron Scheduling Example**:
-
-You can schedule backups at different intervals. Here are some options:
-
-- **Every 10 minutes**: `*/10 * * * *`
-- **Every 15 minutes**: `*/15 * * * *`
-- **Every 30 minutes**: `*/30 * * * *`
-- **Hourly**: `0 * * * *`
-- **Daily**: `0 0 * * *`
-- **Weekly**: `0 0 * * 0`
-
----
-
-## 🛠️ **Prerequisites**:
-Make sure your system has the following installed:
-
-- `bash` (the script is designed to work with Bash)
-- `chattr` (for file attributes)
-- `flock` (for locking files/directories)
-- `cron` (for scheduling backups)
-- `rsync` (for backing up files)
 
 ---
 
