@@ -29,7 +29,7 @@ This script provides a simple, user-friendly interface for managing files and di
 ### 1. **Clone the Repository**:
    Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/lock-attribute-backup-manager.git
+   git clone https://github.com/Curious4Tech/lock-attribute-backup-manager.git
    cd lock-attribute-backup-manager
    ```
 
