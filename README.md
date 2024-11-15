@@ -4,14 +4,14 @@ A powerful Linux script for managing file locks, setting attributes (immutable, 
 
 # 📂 **Lock, Attribute, and Backup Management Script** 🗄️
 
-This script provides a simple, user-friendly interface for managing files and directories in Linux. It allows you to set file attributes, lock/unlock files or directories with `flock`, and schedule automated backups using **`cron`**.
+This script provides a simple, user-friendly interface for managing files and directories in Linux. It allows you to set file attributes, lock/unlock files or directories with **`flock`**, and schedule automated backups using **`cron`**.
 
 ---
 
 ## 🚀 **Features**:
 
 - **Set File Attributes**:
-  - Make files immutable (`+i`) or append-only (`+a`).
+  - Make files immutable (**`+i`**) or append-only (**`+a`**).
   - Remove these attributes when no longer needed.
 
 - **Lock/Unlock Files/Directories**:
@@ -19,8 +19,8 @@ This script provides a simple, user-friendly interface for managing files and di
   - Unlock the file or directory when you're done.
 
 - **Schedule Backups**:
-  - Automatically back up files/directories to a specified location using `cron`.
-  - Choose how often to back up (every 10 minutes, 30 minutes, hourly, daily, weekly).
+  - Automatically back up files/directories to a specified location using **`cron`**.
+  - Choose how often to back up (every 10 minutes, 15 minutes, 30 nminutes, hourly, daily, weekly).
 
 ---
 
@@ -65,19 +65,12 @@ When you run the script, you will be prompted to enter a **file or directory pat
 
 ---
 
-## 🎨 **Customization**:
-The script uses some color coding and formatting for a nice experience in the terminal, including:
-
-- **Fancy Banner**: Display a fancy banner with ASCII art.
-- **Color**: Text highlights using ANSI color codes for user prompts and feedback.
-
----
-
 ## 📅 **Cron Scheduling Example**:
 
 You can schedule backups at different intervals. Here are some options:
 
 - **Every 10 minutes**: `*/10 * * * *`
+- **Every 15 minutes**: `*/15 * * * *`
 - **Every 30 minutes**: `*/30 * * * *`
 - **Hourly**: `0 * * * *`
 - **Daily**: `0 0 * * *`
@@ -98,20 +91,6 @@ Make sure your system has the following installed:
 
 ## 📜 **License**:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📞 **Contact**:
-Feel free to open an issue or pull request if you encounter any problems or have suggestions for improvements. 🙂
-
----
-
-## 🏷️ **Emoji Legend**:
-- 🗂️ **File/Directory Operations**
-- 🛡️ **Security (File Attributes and Locks)**
-- 🗓️ **Backup Scheduling**
-- 🎨 **Terminal Customization**
-
 
 ---
 
